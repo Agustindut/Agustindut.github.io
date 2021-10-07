@@ -4,17 +4,29 @@ body {
     line-height: 1.6em;
     margin: 0;
   }
+  .container2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+    
+  }
   .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    text-align: center;
+    color: black;
   }
   .clearFix {
     clear: both;
   }
   #mainHeader {
-    background: #333;
-    color: white;
+    background:#ccc;
+    color: rgb(22, 136, 139);
+    text-align: left;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding-left: 0%;
   }
   #mainNav {
     background: #ccc;
@@ -22,6 +34,8 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    padding: 1em;
+    margin: 0;
   }
   #mainNav ul {
     padding: 0;
@@ -31,6 +45,8 @@ body {
   #mainNav li {
     display: inline;
     padding: 5px 10px;
+    border-left: 3px dashed rgb(22, 136, 139);
+    
   }
   #mainNav a {
     color: black;
@@ -38,16 +54,20 @@ body {
     font-size: 18px;
   }
   #mainNav li:hover {
-    background: #aaa;
+    background: rgb(22, 136, 139);
   }
   #jumbo {
-    background-image: url('../image/blue.jpg');
+    background-image: url('../image/cyan.jpg');
     background-position: center center;
+    background-size: cover;
     min-height: 200px;
     text-align: center;
+    width: 100%;
+    overflow: visible;
+    
   }
   #jumbo h1 {
-    color: white;
+    color: black;
     font-size: 45px;
     padding-top: 20px;
     line-height: 1.6em;
@@ -60,12 +80,13 @@ body {
   }
   #sidebar {
     float: left;
-    width: 30%;
-    padding: 10px;
-    border-right: 1px solid #333;
+    width: 10%;
+    padding: 0px;
+    border-right: 10px solid #333;
     box-sizing: border-box;
-    letter-spacing: .2em;
+    letter-spacing: 2em;
     word-spacing: 1em;
+    background-color: black;
   }
   #mainFooter {
     background: #333;
