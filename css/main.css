@@ -9,7 +9,8 @@ body {
     margin: auto;
     overflow: hidden;
     text-align: left;
-    
+    font-family: 'Ephesis', cursive;
+    padding:15px;    
   }
   .container {
     width: 80%;
@@ -17,6 +18,15 @@ body {
     overflow: hidden;
     text-align: center;
     color: black;
+  }
+  .container3 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    color: black;
+    
   }
   .clearFix {
     clear: both;
@@ -44,8 +54,20 @@ body {
   }
   #mainNav li {
     display: inline;
-    padding: 5px 10px;
-    border-left: 3px dashed rgb(22, 136, 139);
+    margin: 0px;
+    border:0px;
+    padding:5px 5px;
+    border-left: 2px solid rgb(46, 178, 201);
+    border-right: 2px solid rgb(46, 178, 201);
+    border-width: 2px;
+    
+    
+    
+    
+    
+    
+    
+
     
   }
   #mainNav a {
@@ -82,19 +104,44 @@ body {
     float: left;
     width: 10%;
     padding: 0px;
-    border-right: 10px solid #333;
+    border-right: 1px solid #333;
     box-sizing: border-box;
     letter-spacing: 2em;
     word-spacing: 1em;
     background-color: black;
+  }
+  #hr.dashed {
+    border-top: 3px dashed rgb(0, 0, 0);
   }
   #mainFooter {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 50px; 
   }
+  #copyright {
+    padding-top: 0;
+    margin-top: 4em;
+    border-top: 0;
+  }
+
+    #copyright ul {
+      padding: 1em 2em;
+      width: 100%;
+    }
+
+      #copyright ul li {
+        display: block;
+        margin: 0.5em 0 0 0;
+        border-left: 0;
+        padding: 0;
+      }
+
+        #copyright ul li:first-child {
+          margin-top: 0;
+        }
+
   #pExample {
     width: 400px;
     height: 400px;
@@ -130,3 +177,4 @@ body {
       border: none;
     }
   }
+  
